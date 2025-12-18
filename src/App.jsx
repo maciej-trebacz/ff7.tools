@@ -1,4 +1,5 @@
 import './index.css'
+import { Analytics } from "@vercel/analytics/react"
 
 const tools = [
   {
@@ -119,6 +120,7 @@ function App() {
       <footer className="footer">
         &copy; {new Date().getFullYear()} FF7 Tools by <a href="https://github.com/maciej-trebacz" target="_blank">Maciej Trebacz</a>
       </footer>
+      <Analytics />
     </>
   )
 }
