@@ -3,6 +3,18 @@ import { Analytics } from "@vercel/analytics/react"
 
 const tools = [
   {
+    name: 'Ultima',
+    description: 'Real-time game editor for FF7 PC. Modify party stats, warp between locations, toggle invincibility, edit equipment, and more.',
+    downloadUrl: 'https://github.com/maciej-trebacz/ff7-ultima/releases',
+    sourceUrl: 'https://github.com/maciej-trebacz/ff7-ultima',
+  },
+  {
+    name: 'Landscaper',
+    description: 'World map editor for FF7 PC. Edit map geometry, dialogues, encounters, and scripts. Export maps to OBJ for use in Blender.',
+    downloadUrl: 'https://github.com/maciej-trebacz/ff7-landscaper/releases',
+    sourceUrl: 'https://github.com/maciej-trebacz/ff7-landscaper',
+  },
+  {
     name: 'LGP Explorer',
     description: 'Browse and extract files from FF7 LGP archives. View textures, models, and other game assets directly in your browser.',
     webUrl: 'https://lgp.ff7.tools/',
@@ -14,18 +26,6 @@ const tools = [
     description: 'View and explore PSX battle stages and convert them to PC format.',
     webUrl: 'https://maciej-trebacz.github.io/ff7-battle-stage-viewer/',
     sourceUrl: 'https://github.com/maciej-trebacz/ff7-battle-stage-viewer',
-  },
-  {
-    name: 'Ultima',
-    description: 'Real-time game editor for FF7 PC. Modify party stats, warp between locations, toggle invincibility, edit equipment, and more.',
-    downloadUrl: 'https://github.com/maciej-trebacz/ff7-ultima/releases',
-    sourceUrl: 'https://github.com/maciej-trebacz/ff7-ultima',
-  },
-  {
-    name: 'Landscaper',
-    description: 'World map editor for FF7 PC. Edit map geometry, dialogues, encounters, and scripts. Export maps to OBJ for use in Blender.',
-    downloadUrl: 'https://github.com/maciej-trebacz/ff7-landscaper/releases',
-    sourceUrl: 'https://github.com/maciej-trebacz/ff7-landscaper',
   },
   {
     name: 'Credits Editor',
